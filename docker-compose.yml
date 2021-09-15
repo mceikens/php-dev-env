@@ -22,7 +22,7 @@ services:
       - 80:80
       - 443:443
   php:
-    image: mceikens/php-dev:7.3-latest
+    image: mceikens/php-dev:7.4-latest
     working_dir: /usr/share/nginx/html/app
     privileged: true
     volumes:
